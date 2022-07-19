@@ -1,0 +1,252 @@
+/* font  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* common style  */
+
+
+
+
+/* ---------------------style for top banner ----------------------------- */
+.container {
+    background: #161616;
+    border-radius: 30px;
+    Width: 1321px;
+    Height: 646px;
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 139px;
+}
+
+.main-blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: column-reverse;
+    justify-items: end
+}
+
+.blog-1 {
+
+    width: 531px;
+    height: 424px;
+    margin-top: 111px;
+    margin-bottom: 111px;
+    margin-left: 106px;
+}
+
+#player-title {
+    height: 193px;
+    width: 531px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFFFFF;
+    line-height: 76px;
+}
+
+#player-info {
+    width: 506px;
+    height: 78px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 28px;
+}
+
+.watch-link {
+    background-color: #DD0000;
+    border-radius: 5px;
+    width: 187px;
+    height: 56px;
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+
+button>i {
+    width: 24px;
+    height: 24px;
+}
+
+.blog-2 img {
+    width: 581px;
+    height: 613px;
+    margin-top: 33px;
+    margin-left: 24px;
+    margin-right: 79px;
+}
+
+
+/*-------------------- 2nd bannner 2nd section style-----------------  */
+
+
+.container-2 {
+    margin-top: 130px;
+    margin-left: 140px;
+    margin-right: 139px;
+}
+
+.main-blog-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 24px;
+}
+
+.link-button {
+    height: 312px;
+    width: 312px;
+    background: #161616;
+    border-radius: 10px;
+    text-align: center;
+    color: #161616;
+
+}
+
+#link-1,
+#link-2,
+#link-3 {
+    width: 200px;
+    height: 45px;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 0px;
+    border-radius: 10px;
+    padding-top: 15px;
+
+
+}
+
+
+#link-3 {
+
+    background-color: #DD0000;
+}
+
+#anchor {
+
+    text-decoration: none;
+    padding-top: 20px;
+
+}
+
+.Transfer-Live {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    column-gap: 24px;
+    margin: 2px;
+    margin-bottom: 130px;
+}
+
+.transfer {
+    height: 362px;
+    width: 312px;
+    margin: 20px;
+
+
+}
+
+.little {
+    width: 67px;
+    height: 24px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-left: 12px;
+}
+
+.live-info {
+    width: 272px;
+    height: 54px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #161616;
+    margin-bottom: 0px;
+
+}
+
+.time {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 20px 50px;
+
+}
+
+.comment {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 20px 50px;
+}
+
+.time-comment {
+    display: grid;
+    grid-template-columns: 80px 100px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+i {
+    gap: 10px
+}
+
+
+/* -----------------------last section style----------------------------------- */
+
+
+.container-3 {
+    width: 1600px;
+    height: 444px;
+    background: #161616;
+}
+
+.goal {
+    Weight: 600;
+    font-size: 40px;
+    text-align: Center;
+    padding-top: 106.5px;
+    color: #FFFFFF;
+    padding-bottom: 50px;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 50px;
+}
+
+/* navigation */
+
+
+.for-nav {
+    display: grid;
+    grid-template-columns: repeat(6, 150px);
+    column-gap: 30px;
+    justify-content: center;
+}
+
+nav a {
+    height: 24px;
+    width: 898px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B9B9B9;
+
+
+
+}
