@@ -237,3 +237,58 @@ button>i {
     padding-left: 5px;
 
 }
+
+
+
+
+
+
+
+
+/* ----------------------------Responsive Style --------------------------- */
+
+@media only screen and (min-width: 690px) and (max-width:1100px) {
+    .container {
+
+        margin-right: 0;
+        width: 100%;
+        margin: 0px;
+        padding-right: 0px;
+        margin-left: 10px;
+        padding-bottom: 0px;
+
+    }
+
+    .blog-2 img {
+        width: 100%;
+        height: justify;
+    }
+
+    .link-button {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        /* font-size: 20px; */
+        padding-right: 0px;
+        margin: 0;
+        width: 0px;
+    }
+
+
+
+    .head-container {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        margin: 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+}
