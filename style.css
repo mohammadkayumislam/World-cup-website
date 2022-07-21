@@ -24,11 +24,11 @@
 }
 
 
-.blog-2 img:hover {
+/* .blog-2 img:hover {
     background-color: red;
     transform: scale(-.75) rotate(180deg);
     transition: transform 1.5s;
-}
+} */
 
 
 #link-1:hover {
@@ -69,16 +69,15 @@
     border-radius: 30px;
     Width: 1321px;
     Height: 646px;
-    margin-top: 50px;
-    margin-left: 140px;
-    margin-right: 139px;
+    margin-top: 140px;
+    margin-left: 144px;
+    margin-right: 135px;
 }
 
 .main-blog {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    flex-direction: column-reverse;
-    justify-items: end
+    justify-items: end;
 }
 
 .blog-1 {
@@ -158,8 +157,9 @@ button>i {
 
 .main-blog-2 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 0px;
+    grid-template-columns: 350px 1000px;
+
+    column-gap: px;
 }
 
 .link-button {
@@ -328,3 +328,34 @@ nav a {
 
 
 }
+
+/* ------------------------------social link -------------------- */
+
+
+.social-link {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    margin-left: 720px;
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+
+.fa-facebook,
+.fa-instagram,
+.fa-twitter,
+.fa-whatsapp {
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+/*---------------------------- media quary------------------ */
+
+/* ----------------------------------------------for mobile ------------ */

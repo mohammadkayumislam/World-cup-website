@@ -1,0 +1,239 @@
+/* ---------------------------
+----------------font ----------
+==================------------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+
+
+
+/*-----------------------------------------------------
+-------------- :hover part for 2nd website -----------
+--------------------------------------------------- */
+
+
+.watch-link:hover {
+    background-color: red;
+    transform: scale(-.75) rotate(180deg);
+    transition: transform 1s;
+}
+
+#link-1:hover {
+    background-color: orange;
+    transform: scale(.75);
+    transition: transform 1s;
+}
+
+#link-2:hover {
+    background-color: tomato;
+    transform: scale(.75);
+    transition: transform 1s;
+}
+
+#link-3:hover {
+    background-color: aqua;
+    transform: scale(.75);
+    transition: transform 1s;
+}
+
+
+/* ----------------------------------------------
+----------------style for top banner for 2nd website--------------
+------------------------------------------------- */
+
+
+
+
+.container {
+    background: #161616;
+    border-radius: 30px;
+    Width: 1321px;
+    Height: 646px;
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 139px;
+}
+
+.main-blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: column-reverse;
+    justify-items: end;
+
+}
+
+.blog-1 {
+
+    width: 531px;
+    height: 424px;
+    margin-top: 111px;
+    margin-bottom: 111px;
+    margin-left: 106px;
+}
+
+#player-title {
+    height: 193px;
+    width: 531px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFFFFF;
+    line-height: 76px;
+}
+
+
+#player-info {
+    width: 506px;
+    height: 78px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 28px;
+}
+
+.watch-link {
+    background-color: #DD0000;
+    border-radius: 5px;
+    width: 187px;
+    height: 56px;
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+
+
+
+button>i {
+    width: 24px;
+    height: 24px;
+}
+
+.blog-2 img {
+    width: 581px;
+    height: 613px;
+    margin-top: 33px;
+    margin-left: 24px;
+    margin-right: 79px;
+    border-radius: 20px;
+
+
+}
+
+/* style for 2nd section  */
+.container-2 {
+    margin-top: 130px;
+    margin-left: 140px;
+    margin-right: 139px;
+}
+
+
+.link-button {
+    height: 312px;
+    width: 312px;
+    background: #161616;
+    border-radius: 10px;
+    text-align: center;
+    color: #161616;
+
+}
+
+#link-1,
+#link-2,
+#link-3 {
+    width: 200px;
+    height: 45px;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 0px;
+    border-radius: 10px;
+    padding-top: 15px;
+
+
+}
+
+#link-3 {
+
+    background-color: #DD0000;
+}
+
+#anchor {
+
+    text-decoration: none;
+    padding-top: 20px;
+
+}
+
+
+/* ------------------------------------
+--------------------live match --------
+------------------------------------------- */
+
+
+
+.live-match img {
+
+    margin: 5px;
+    padding-left: 30x;
+    border-radius: 10px;
+    height: 190px;
+    width: 320px;
+
+}
+
+.box {
+
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.country {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #161616;
+
+
+}
+
+.play-timme {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2px;
+    color: #4D4D4D;
+
+
+}
+
+.country-time {
+    padding-left: 30px;
+    padding-bottom: 5px;
+}
+
+.main-blog-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0px;
+}
+
+.head-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin-right: 30px;
+    padding-left: 5px;
+
+}
